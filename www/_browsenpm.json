@@ -1,0 +1,22 @@
+{
+  "port": 80,
+  "tokens": [],
+  "registry": "http://localhost/",
+  "probes": [
+    "ping",
+    "delta"
+  ],
+  "service": "browsenpm",
+  "redis": {
+    "host": "CACHE_HOST",
+    "port": CACHE_PORT
+  },
+  "couchdb": {
+    "database": "browsenpm",
+    "host": "REGISTRY_HOST",
+    "port": REGISTRY_PORT
+  },
+  "npm": {
+    "loglevel": "info"
+  }
+}
