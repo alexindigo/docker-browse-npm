@@ -1,4 +1,4 @@
-# alexindigo/private-npm
+# alexindigo/browse-npm
 FROM alexindigo/node-dev:0.10.29
 MAINTAINER Alex Indigo <iam@alexindigo.com>
 
