@@ -2,10 +2,11 @@ docker-browse-npm
 =================
 
 Containerized [browsenpm.org](https://www.npmjs.org/package/browsenpm) for local deployment,
-using redis, couchdb `1.6.0`, node `0.10.29`.
+using redis, couchdb `1.6.0`, node `0.10.29` and private_npm `2.4.3`.
 
 Requires:
 - [alexindigo/couchdb](https://registry.hub.docker.com/u/alexindigo/couchdb/) as linked container.
+- [alexindigo/private-npm](https://registry.hub.docker.com/u/alexindigo/private-npm/) as linked container.
 - [redis](https://registry.hub.docker.com/_/redis/) as linked container.
 
 ## Install

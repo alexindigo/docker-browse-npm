@@ -11,4 +11,4 @@ RUN_MODE="-t -i"
 fi
 
 # run container
-docker run ${RUN_MODE} --name browse_npm -v ${BASEPATH}/www:/www -p 8081:80 --link couchdb:couchdb --link redis:redis alexindigo/browse-npm "$@"
+docker run ${RUN_MODE} --name browse_npm -v ${BASEPATH}/www:/www -p 8081:80 --dns 10.0.2.3 --link couchdb:couchdb --link redis:redis --link private_npm:private_npm alexindigo/browse-npm "$@"

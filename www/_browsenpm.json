@@ -1,10 +1,8 @@
 {
   "port": 80,
   "tokens": [],
-  "registry": "http://localhost/",
+  "registry": "http://NPM_HOST:NPM_PORT/",
   "probes": [
-    "ping",
-    "delta"
   ],
   "service": "browsenpm",
   "redis": {
@@ -17,6 +15,6 @@
     "port": REGISTRY_PORT
   },
   "npm": {
-    "loglevel": "info"
+    "loglevel": "debug"
   }
 }
